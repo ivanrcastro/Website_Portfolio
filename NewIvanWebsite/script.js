@@ -44,7 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
   // ----------------------
   // TYPED.JS - Texto dinâmico Hero
   // ----------------------
-  if (typeof Typed !== 'undefined') {
+  const typedElement = document.querySelector('.typing-text');
+
+  if (typeof Typed !== 'undefined' && typedElement) {
     new Typed('.typing-text', {
       strings: [
         'Automation Engineer',
