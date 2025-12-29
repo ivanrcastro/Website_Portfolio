@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Ivan Castro</title>
+
+  <!-- Ícones Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Toggle Dark Mode -->
+  <button id="dark-mode-toggle" class="dark-mode-btn" title="Toggle Dark Mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Navegação -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#experience">Professional Experience</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="https://www.linkedin.com/in/ivan-castro-472552232/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Fundo animado -->
+  <div id="particles-js"></div>
+
+  <!-- Conteúdo Portfolio -->
+  <main class="section projects-main">
+    <div class="hero-section projects-hero">
+      <div class="projects-header">
+        <h1 class="highlight">Portfolio</h1>
+        <p class="projects-subtitle">
+          Welcome to my portfolio — where robots move, code compiles, and nothing explodes. Usually.
+        </p>
+        <p class="projects-subtitle">
+          Each project represents countless hours of problem-solving, debugging, and that magical moment
+          when the robot finally does what it was supposed to do (instead of trying to escape).
+        </p>
+      </div>
+    </div>
+
+    <!-- Grid de Projetos -->
+    <section class="projects-grid section">
+      <div class="projects-container">
+        <!-- Projeto 1 -->
+        <div class="project-card">
+          <img src="img/depalletizer.jpg" alt="Depalletizer UR10" />
+          <div class="project-info">
+            <h3 class="project-title">Depalletizer Solution</h3>
+            <p>Depalletizing solution using a Universal Robots UR10 collaborative robot.</p>
+          </div>
+
+          <!-- Detalhe escondido -->
+          <div class="project-details">
+            <p>
+              More detailed explanation of the depalletizer project: objectives, technologies used,
+              challenges, KPIs, etc.
+            </p>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="project-card">
+          <img src="img/kmr_iiwa.jpg" alt="KMR iiwa ROS2" />
+          <div class="project-info">
+            <h3>Master’s Thesis</h3>
+            <p>
+              Navigation control and docking maneuvers for autonomous mobile manipulators
+              (KUKA KMR iiwa) in internal logistics and production environments.
+            </p>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="project-card">
+          <img src="img/projeto3.jpg" alt="Underwater Glider" />
+          <div class="project-info">
+            <h3>Underwater Glider</h3>
+            <p>
+              Development of an autonomous underwater glider for short-range data collection.
+            </p>
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="project-card">
+          <img src="img/projeto4.jpg" alt="LADDER Cutting Machine" />
+          <div class="project-info">
+            <h3>Automated Tube Cutting Machine</h3>
+            <p>
+              Design and programming of an automated cutting system using an OMRON PLC
+              (LADDER), HMI in CX‑Designer, sensor integration and GRAFCET‑based cycle control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+</body>
+</html>
