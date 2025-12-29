@@ -152,6 +152,11 @@ document.addEventListener('DOMContentLoaded', function () {
     sr.reveal('.skills-tags', { origin: 'bottom', delay: 100 });
     sr.reveal('.skill-tag', { origin: 'bottom', interval: 80 });
 
+    // Portfolio
+    sr.reveal('#portfolio h2', { origin: 'bottom', delay: 100 });
+    sr.reveal('#portfolio p', { origin: 'bottom', delay: 200 });
+    sr.reveal('#portfolio .hero-card-btn', { origin: 'bottom', delay: 300 });
+
     // Contact
     sr.reveal('.contact-form', { origin: 'bottom', delay: 200 });
   }
